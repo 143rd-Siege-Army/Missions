@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=119;
+		nextID=127;
 	};
 	class Camera
 	{
-		pos[]={15127.588,306.55792,1885.2777};
-		dir[]={-0.83869982,-0.48065543,0.25616217};
-		up[]={-0.4597505,0.87687528,0.1404202};
-		aside[]={0.29211572,7.0780516e-008,0.9564116};
+		pos[]={13577.015,90.089378,1673.0922};
+		dir[]={0.013314627,-0.74805963,0.66350353};
+		up[]={0.015008115,0.66362673,0.74791294};
+		aside[]={0.99980199,-1.5911337e-007,-0.020063382};
 	};
 };
 binarizationWanted=0;
@@ -33,7 +33,8 @@ addons[]=
 	"DKoK_Weapons",
 	"A3_Weapons_F",
 	"A3_Weapons_F_Items",
-	"ace_medical",
+	"ace_medical_engine",
+	"ace_medical_treatment",
 	"acex_fortify",
 	"OPTRE_Modules",
 	"JSHK_contam",
@@ -144,7 +145,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=87;
+		items=88;
 		class Item0
 		{
 			className="DkoKFoot";
@@ -164,492 +165,499 @@ class AddonsMetaData
 		};
 		class Item3
 		{
-			className="ace_medical";
-			name="ACE3 - Medical";
+			className="ace_medical_engine";
+			name="ACE3 - Medical Engine";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
 		class Item4
+		{
+			className="ace_medical_treatment";
+			name="ACE3 - Medical Treatment";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item5
 		{
 			className="acex_fortify";
 			name="acex_fortify";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item5
+		class Item6
 		{
 			className="OPTRE_Modules";
 			name="OPTRE_Modules";
 			author="Article 2 Studios";
 		};
-		class Item6
+		class Item7
 		{
 			className="JSHK_contam";
 			name="JSHK_contam";
 			author="J. Shock";
 		};
-		class Item7
+		class Item8
 		{
 			className="ryanzombiesfunctions";
 			name="ryanzombiesfunctions";
 			author="Ryan";
 		};
-		class Item8
+		class Item9
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item10
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item11
 		{
 			className="r0ed_SurvivableCrashes";
 			name="r0ed_SurvivableCrashes";
 			author="Rafael09ED";
 		};
-		class Item11
+		class Item12
 		{
 			className="A3_Data_F_Curator";
 			name="Arma 3 Zeus Update - Main Configuration";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item13
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item14
 		{
 			className="TIOW_Comissar";
 			name="TIOW_Comissar";
 		};
-		class Item14
+		class Item15
 		{
 			className="ML700_IG_Cadians_Pilot";
 			name="ML700_IG_Cadians_Pilot";
 			author="ML700 Dev Team";
 		};
-		class Item15
+		class Item16
 		{
 			className="Cadian_Weapons";
 			name="Cadian_Weapons";
 		};
-		class Item16
+		class Item17
 		{
 			className="tfar_handhelds";
 			name="tfar_handhelds";
 			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
 		};
-		class Item17
+		class Item18
 		{
 			className="cTab";
 			name="cTab";
 		};
-		class Item18
+		class Item19
 		{
 			className="CadFoot";
 			name="CadFoot";
 		};
-		class Item19
+		class Item20
 		{
 			className="A3_Weapons_F_Orange";
 			name="Arma 3 Orange - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
+		class Item21
 		{
 			className="ace_trenches";
 			name="ACE3 - Trenches";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item21
+		class Item22
 		{
 			className="ace_captives";
 			name="ACE3 - Captives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item22
+		class Item23
 		{
 			className="TIOW_IG_Cosmetics";
 			name="TIOW_IG_Cosmetics";
 		};
-		class Item23
+		class Item24
 		{
 			className="ace_attach";
 			name="ACE3 - Attach";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item24
+		class Item25
 		{
 			className="ace_chemlights";
 			name="ace_chemlights";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item25
+		class Item26
 		{
 			className="WHObjects";
 			name="WHObjects";
 		};
-		class Item26
+		class Item27
 		{
 			className="TIOW_structures";
 			name="TIOW_structures";
 		};
-		class Item27
+		class Item28
 		{
 			className="WHObjects3";
 			name="WHObjects3";
 		};
-		class Item28
+		class Item29
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item29
+		class Item30
 		{
 			className="CUP_Misc3_Config";
 			name="CUP_Misc3_Config";
 		};
-		class Item30
+		class Item31
 		{
 			className="A3_Props_F_Enoch";
 			name="Arma 3 Enoch - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item31
+		class Item32
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item32
+		class Item33
 		{
 			className="acex_sitting";
 			name="ACEX - Sitting";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item33
+		class Item34
 		{
 			className="A3_Props_F_Orange";
 			name="Arma 3 Orange - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item34
+		class Item35
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item35
+		class Item36
 		{
 			className="WW2_Core_c_IF_Gui_c";
 			name="WW2_Core_c_IF_Gui_c";
 		};
-		class Item36
+		class Item37
 		{
 			className="Valkyrie";
 			name="There is Only War Valkyries";
 			author="Battlestad+SabreOne";
 		};
-		class Item37
+		class Item38
 		{
 			className="TIOWM_APCs";
 			name="TIOWM_APCs";
 		};
-		class Item38
+		class Item39
 		{
 			className="ML700_Vehicles_Taurox";
 			name="ML700_Vehicles_Taurox";
 		};
-		class Item39
+		class Item40
 		{
 			className="WHtracked_TIOW_LR_Battlecannon";
 			name="WHtracked_TIOW_LR_Battlecannon";
 		};
-		class Item40
+		class Item41
 		{
 			className="WW2_Assets_c_Vehicles_Wheeled_c_Willys_MB";
 			name="WW2_Assets_c_Vehicles_Wheeled_c_Willys_MB";
 		};
-		class Item41
+		class Item42
 		{
 			className="WW2_Core_c_WW2_EditorPreviews_c";
 			name="WW2_Core_c_WW2_EditorPreviews_c";
 		};
-		class Item42
+		class Item43
 		{
 			className="WW2_Assets_c_Vehicles_StaticWeapons_c_Lefh18";
 			name="WW2_Assets_c_Vehicles_StaticWeapons_c_Lefh18";
 		};
-		class Item43
+		class Item44
 		{
 			className="WW2_Assets_c_Vehicles_ModelConfig_c";
 			name="WW2_Assets_c_Vehicles_ModelConfig_c";
 		};
-		class Item44
+		class Item45
 		{
 			className="WW2_Assets_c_Vehicles_SimpleObjects_c";
 			name="WW2_Assets_c_Vehicles_SimpleObjects_c";
 		};
-		class Item45
+		class Item46
 		{
 			className="Test_Tank_01";
 			name="Test_Tank_01";
 		};
-		class Item46
+		class Item47
 		{
 			className="WHturret";
 			name="WHturret";
 		};
-		class Item47
+		class Item48
 		{
 			className="GSC_TIOW";
 			name="Genestealer Cult Brood Brothers";
 			author="Dos";
 		};
-		class Item48
+		class Item49
 		{
 			className="cba_modules";
 			name="Community Base Addons - Modules";
 			author="CBA Team";
 			url="https://www.github.com/CBATeam/CBA_A3";
 		};
-		class Item49
+		class Item50
 		{
 			className="TIOW_STeG4";
 			name="TIOW_STeG4";
 		};
-		class Item50
+		class Item51
 		{
 			className="WW2_Core_c_I44_Markers_c";
 			name="WW2_Core_c_I44_Markers_c";
 		};
-		class Item51
+		class Item52
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item52
+		class Item53
 		{
 			className="WHObjects2";
 			name="WHObjects2";
 		};
-		class Item53
+		class Item54
 		{
 			className="WW2_Assets_c_Vehicles_Planes_c_Ju87";
 			name="WW2_Assets_c_Vehicles_Planes_c_Ju87";
 		};
-		class Item54
+		class Item55
 		{
 			className="WW2_Assets_c_Vehicles_Pictures_c";
 			name="WW2_Assets_c_Vehicles_Pictures_c";
 		};
-		class Item55
+		class Item56
 		{
 			className="A3_Structures_F_Argo";
 			name="Arma 3 Malden - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item56
+		class Item57
 		{
 			className="WW2_Assets_c_Vehicles_Planes_c_FW190F8";
 			name="WW2_Assets_c_Vehicles_Planes_c_FW190F8";
 		};
-		class Item57
+		class Item58
 		{
 			className="WW2_Assets_c_Vehicles_Planes_c_Pylons";
 			name="WW2_Assets_c_Vehicles_Planes_c_Pylons";
 		};
-		class Item58
+		class Item59
 		{
 			className="WW2_Assets_c_Vehicles_Extended_HUD_c";
 			name="WW2_Assets_c_Vehicles_Extended_HUD_c";
 		};
-		class Item59
+		class Item60
 		{
 			className="WW2_Assets_c_Vehicles_Icons_c";
 			name="WW2_Assets_c_Vehicles_Icons_c";
 		};
-		class Item60
+		class Item61
 		{
 			className="WW2_Assets_c_Vehicles_TurretsConfig_c";
 			name="WW2_Assets_c_Vehicles_TurretsConfig_c";
 		};
-		class Item61
+		class Item62
 		{
 			className="WW2_Assets_s_Megagoth1702_Sounds_Config_CfgVehicles";
 			name="WW2_Assets_s_Megagoth1702_Sounds_Config_CfgVehicles";
 		};
-		class Item62
+		class Item63
 		{
 			className="WW2_Assets_c_Vehicles_SoundFrameWork_c";
 			name="WW2_Assets_c_Vehicles_SoundFrameWork_c";
 		};
-		class Item63
+		class Item64
 		{
 			className="A3_Structures_F_Orange";
 			name="Arma 3 Orange - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item64
+		class Item65
 		{
 			className="CUP_Buildings_Config";
 			name="CUP_Buildings_Config";
 		};
-		class Item65
+		class Item66
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item66
+		class Item67
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item67
+		class Item68
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item68
+		class Item69
 		{
 			className="ace_logistics_wirecutter";
 			name="ACE3 - Logistics Wire Cutter";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item69
+		class Item70
 		{
 			className="ace_concertina_wire";
 			name="ACE3 - Concertina Wire";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item70
+		class Item71
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item71
+		class Item72
 		{
 			className="A3_Armor_F_Beta";
 			name="Arma 3 Beta - Armored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item72
+		class Item73
 		{
 			className="A3_Structures_F_Enoch_Military";
 			name="Arma 3 Enoch - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item73
+		class Item74
 		{
 			className="shf_assets";
 			name="shf_assets";
 		};
-		class Item74
+		class Item75
 		{
 			className="WW2_Assets_c_Vehicles_Wheeled_c_OpelBlitz";
 			name="WW2_Assets_c_Vehicles_Wheeled_c_OpelBlitz";
 		};
-		class Item75
+		class Item76
 		{
 			className="WW2_Core_c_WW2_Core_c_Explosion";
 			name="WW2_Core_c_WW2_Core_c_Explosion";
 		};
-		class Item76
+		class Item77
 		{
 			className="WW2_Assets_c_Vehicles_ExternalCamera_c";
 			name="WW2_Assets_c_Vehicles_ExternalCamera_c";
 		};
-		class Item77
+		class Item78
 		{
 			className="A3_Static_F_Sams";
 			name="Arma 3 Sams - Turrets";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item78
+		class Item79
 		{
 			className="CUP_Editor_Plants_Config";
 			name="CUP_Editor_Plants_Config";
 		};
-		class Item79
+		class Item80
 		{
 			className="imperial_grenades";
 			name="imperial_grenades";
 		};
-		class Item80
+		class Item81
 		{
 			className="CUP_Editor_A1_Roads_Config";
 			name="CUP_Editor_A1_Roads_Config";
 		};
-		class Item81
+		class Item82
 		{
 			className="grad_trenches_assets";
 			name="grad_trenches_assets";
 		};
-		class Item82
+		class Item83
 		{
 			className="grad_trenches_functions";
 			name="grad_trenches_functions";
 		};
-		class Item83
+		class Item84
 		{
 			className="WW2_Assets_c_Vehicles_StaticWeapons_c";
 			name="WW2_Assets_c_Vehicles_StaticWeapons_c";
 		};
-		class Item84
+		class Item85
 		{
 			className="A3_Static_F_Jets";
 			name="Arma 3 Jets - Turrets";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item85
+		class Item86
 		{
 			className="A3_Props_F_Exp_A";
 			name="Arma 3 Nexus Update - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item86
+		class Item87
 		{
 			className="A3_Modules_F_Tacops";
 			name="Arma 3 Tac-Ops - Scripted Modules";
@@ -17242,7 +17250,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={13558.85,5.1507273,1768.2404};
+								position[]={13558.85,5.1505947,1768.24};
 								angles[]={0,2.6239455,0};
 							};
 							side="West";
@@ -17255,7 +17263,7 @@ class Mission
 							};
 							id=109;
 							type="DKoK_GM_WM_1491st";
-							atlOffset=0.37713718;
+							atlOffset=0.37699986;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -20508,7 +20516,7 @@ class Mission
 					{
 					};
 					id=108;
-					atlOffset=0.37713718;
+					atlOffset=0.37699986;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -20526,7 +20534,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="Heavy Weapons Det";
+									value="Reserves";
 								};
 							};
 						};
@@ -23829,7 +23837,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="Medicae Det";
+									value="Conscripts";
 								};
 							};
 						};
@@ -23848,7 +23856,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={13645.719,5.4915333,1743.7646};
+								position[]={13645.719,5.491478,1743.765};
 								angles[]={0,5.4332447,0};
 							};
 							side="West";
@@ -23862,7 +23870,7 @@ class Mission
 							};
 							id=131;
 							type="DKoK_Off_1491st";
-							atlOffset=0.10215569;
+							atlOffset=0.10210037;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -25635,7 +25643,7 @@ class Mission
 					{
 					};
 					id=130;
-					atlOffset=0.10215569;
+					atlOffset=0.10210037;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -25653,7 +25661,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="Field HQ Det";
+									value="1st Platoon HQ";
 								};
 							};
 						};
@@ -25672,8 +25680,8 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={13642.65,5.4730711,1745.53};
-								angles[]={0,5.4630294,0};
+								position[]={13642.65,5.4730215,1745.53};
+								angles[]={0,5.4630375,0};
 							};
 							side="West";
 							flags=7;
@@ -25686,7 +25694,7 @@ class Mission
 							};
 							id=137;
 							type="DKoK_QM_1491st";
-							atlOffset=0.083693504;
+							atlOffset=0.08364439;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -27459,7 +27467,7 @@ class Mission
 					{
 					};
 					id=136;
-					atlOffset=0.083693504;
+					atlOffset=0.08364439;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27477,7 +27485,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="Quartermaster's Det";
+									value="Alpha Co. Att. HQ";
 								};
 							};
 						};
@@ -27496,8 +27504,8 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={13676.914,4.0414305,1811.4695};
-								angles[]={0,3.9817896,0};
+								position[]={13676.914,4.0412149,1811.469};
+								angles[]={0,3.9817941,0};
 							};
 							side="West";
 							flags=7;
@@ -27510,7 +27518,7 @@ class Mission
 							};
 							id=143;
 							type="DKoK_Eng_1491st";
-							atlOffset=0.19397259;
+							atlOffset=0.19376707;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -29940,7 +29948,7 @@ class Mission
 					{
 					};
 					id=142;
-					atlOffset=0.19397259;
+					atlOffset=0.19376707;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -29958,7 +29966,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="Engineering Det";
+									value="Alpha Co. Engineers";
 								};
 							};
 						};
@@ -29977,8 +29985,8 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={13646.591,5.5011387,1742.912};
-								angles[]={0,5.4280696,0};
+								position[]={13646.59,5.5010872,1742.9121};
+								angles[]={0,5.4280615,0};
 							};
 							side="West";
 							flags=7;
@@ -29991,7 +29999,7 @@ class Mission
 							};
 							id=151;
 							type="TIOW_Comissar_Krieg";
-							atlOffset=0.11176109;
+							atlOffset=0.11170959;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -31615,7 +31623,7 @@ class Mission
 					{
 					};
 					id=150;
-					atlOffset=0.11176109;
+					atlOffset=0.11170959;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -31633,7 +31641,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="Commissariat";
+									value="Alpha Co. Commissariat";
 								};
 							};
 						};
@@ -31652,7 +31660,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={13596.022,3.7465818,1759.8146};
+								position[]={13596.022,3.7465396,1759.8151};
 								angles[]={0,0.87765628,0};
 							};
 							side="West";
@@ -31666,7 +31674,6 @@ class Mission
 							};
 							id=157;
 							type="DKoK_Off_1491st";
-							atlOffset=3.695488e-005;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -33963,7 +33970,6 @@ class Mission
 					{
 					};
 					id=156;
-					atlOffset=3.695488e-005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -33981,7 +33987,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="Reserves Det 1";
+									value="Fury Tank Platoon";
 								};
 							};
 						};
@@ -34001,7 +34007,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={13647.854,9.6062498,1740.6604};
-								angles[]={0,0.051700901,0};
+								angles[]={0,0.051696651,0};
 							};
 							side="West";
 							flags=3;
@@ -34359,7 +34365,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={13646.696,9.6207161,1740.6322};
-								angles[]={0,0.051700901,0};
+								angles[]={0,0.051696651,0};
 							};
 							side="West";
 							flags=1;
@@ -34679,7 +34685,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={13645.646,9.6299505,1740.5863};
-								angles[]={0,0.051700901,0};
+								angles[]={0,0.051696651,0};
 							};
 							side="West";
 							flags=1;
@@ -34999,7 +35005,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={13644.005,9.6431618,1740.493};
-								angles[]={0,0.051700901,0};
+								angles[]={0,0.051696651,0};
 							};
 							side="West";
 							flags=1;
@@ -35319,7 +35325,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={13642.412,9.6577091,1740.4271};
-								angles[]={0,0.051700901,0};
+								angles[]={0,0.051696651,0};
 							};
 							side="West";
 							flags=1;
@@ -35639,7 +35645,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={13641.212,9.669632,1740.2947};
-								angles[]={0,0.051700901,0};
+								angles[]={0,0.051696651,0};
 							};
 							side="West";
 							flags=5;
@@ -35959,7 +35965,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={13639.467,9.6865044,1740.1976};
-								angles[]={0,0.051700901,0};
+								angles[]={0,0.051696651,0};
 							};
 							side="West";
 							flags=5;
@@ -36279,7 +36285,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={13637.575,9.7057409,1740.0654};
-								angles[]={0,0.051700901,0};
+								angles[]={0,0.051696651,0};
 							};
 							side="West";
 							flags=5;
@@ -36599,7 +36605,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={13636.656,9.7106047,1740.4578};
-								angles[]={0,0.051700901,0};
+								angles[]={0,0.051696651,0};
 							};
 							side="West";
 							flags=5;
@@ -36936,7 +36942,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="Imperial Navy Det";
+									value="Krieg's Fist 1st Flight";
 								};
 							};
 						};
@@ -36955,8 +36961,8 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={13593.673,3.8183658,1757.9186};
-								angles[]={0,1.1002179,0};
+								position[]={13593.673,3.8183589,1757.9191};
+								angles[]={0,1.1002206,0};
 							};
 							side="West";
 							flags=7;
@@ -37287,7 +37293,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_isMedic";
-									expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"", _value, true];};";
+									expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
 									class Value
 									{
 										class data
@@ -37682,7 +37688,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_isMedic";
-									expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"", _value, true];};";
+									expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
 									class Value
 									{
 										class data
@@ -38039,7 +38045,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_isMedic";
-									expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"", _value, true];};";
+									expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
 									class Value
 									{
 										class data
@@ -38396,7 +38402,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_isMedic";
-									expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"", _value, true];};";
+									expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
 									class Value
 									{
 										class data
@@ -38753,7 +38759,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_isMedic";
-									expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"", _value, true];};";
+									expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
 									class Value
 									{
 										class data
@@ -39110,7 +39116,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_isMedic";
-									expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"", _value, true];};";
+									expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
 									class Value
 									{
 										class data
@@ -39467,7 +39473,7 @@ class Mission
 								class Attribute3
 								{
 									property="ace_isMedic";
-									expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"", _value, true];};";
+									expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
 									class Value
 									{
 										class data
@@ -39508,7 +39514,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="Reserves Det 2";
+									value="1st Platoon Medicae";
 								};
 							};
 						};
@@ -40977,7 +40983,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="Officer Det";
+									value="Zeus Staff";
 								};
 							};
 						};
@@ -43920,7 +43926,7 @@ class Mission
 				};
 			};
 			id=73;
-			atlOffset=-0.090010166;
+			atlOffset=-0.090013027;
 		};
 		class Item3
 		{
@@ -129752,7 +129758,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16321.003,3.2732391,3510.9263};
-				angles[]={-0,2.753449,0};
+				angles[]={0,2.753449,0};
 			};
 			areaSize[]={150,0,150};
 			areaIsRectangle=1;
@@ -130331,7 +130337,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={17147.709,9.15905,3856.0952};
-			angle=0.38494608;
+			angle=0.38494605;
 			class Attributes
 			{
 				condition="call{this}";
@@ -130874,7 +130880,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={17363.984,19.29155,4338.2314};
-			angle=0.38494605;
+			angle=0.38494602;
 			class Attributes
 			{
 				condition="call{this}";
@@ -131326,7 +131332,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={17933.158,9.15905,4573.3506};
-			angle=0.38494605;
+			angle=0.38494602;
 			class Attributes
 			{
 				condition="call{this}";
@@ -131974,7 +131980,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={17754.488,9.4840498,4070.9597};
-			angle=0.38494605;
+			angle=0.38494602;
 			class Attributes
 			{
 				condition="call{this}";
@@ -132505,7 +132511,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={18217.51,9.15905,4131.3135};
-			angle=0.38494605;
+			angle=0.38494602;
 			class Attributes
 			{
 				condition="call{this}";
