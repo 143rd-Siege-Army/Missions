@@ -18,7 +18,6 @@ if ((!isServer) && (player != player)) then {waitUntil {player == player};};
 call compile preprocessFileLineNumbers "scripts\fortify\fortify.sqf";
 call compile preprocessFileLineNumbers "scripts\slideshow\slideshow.sqf";
 call compile preprocessFileLineNumbers "scripts\radio\jammer.sqf";
-call compile preprocessFileLineNumbers "scripts\ai\flak.sqf";
 //call compile preprocessFileLineNumbers "scripts\supplies\resupplyvic.sqf";
 //Respawn
 [west, 300] call BIS_fnc_respawnTickets;
