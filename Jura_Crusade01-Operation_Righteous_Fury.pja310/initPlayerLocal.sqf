@@ -1,1 +1,1 @@
-radioJammer = [[jammer1, jammer2, jammer3, jammer4], 1000, 50, TRUE] execVM "scripts\radios\TFARjamRadios.sqf";
+radioJammer = [[jammer1, jammer2, jammer3, jammer4], 1000, 50, FALSE] execVM "scripts\radio\TFARjamRadios.sqf";

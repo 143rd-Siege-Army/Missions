@@ -1,7 +1,7 @@
 //Mission Info
 author = "Konigs";
-onLoadName = "The Jura Campaign 01 - Operation Righteous Fury" //Mission Name
-onLoadMission = "The Jura Campaign 01 - Operation Righteous Fury" //Mission Description
+onLoadName = "The Jura Campaign 01 - Operation Righteous Fury"; //Mission Name
+onLoadMission = "The Jura Campaign 01 - Operation Righteous Fury"; //Mission Description
 onLoadMissionTime = 1;
 onLoadIntroTime = 1;
 //loadScreen = "media\intro.paa"; //Intro image, must be paa
@@ -58,6 +58,6 @@ class CfgSounds
 class Header {
 	gameType = Coop;
 	minPlayers = 1;
-	maxPlayers = 99;
+	maxPlayers = 110;
 }
 

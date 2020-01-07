@@ -1,4 +1,4 @@
-_jammer = [jammer1, jammer2, jammer3, jammer4];
-{
-	[_x, 3] call BIS_fnc_DataTerminalAnimate;
- } forEach _jammer;
+[jammer1, 3] call BIS_fnc_DataTerminalAnimate;
+[jammer2, 3] call BIS_fnc_DataTerminalAnimate;
+[jammer3, 3] call BIS_fnc_DataTerminalAnimate;
+[jammer4, 3] call BIS_fnc_DataTerminalAnimate;
