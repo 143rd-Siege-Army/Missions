@@ -7,12 +7,18 @@
 		["land_Sandbag_curved", 5], 
 		["land_Sandbag_straight", 5], 
 		["land_Sandbag_static", 5], 
-		["TIOW_IG_Autocannon_1491_Blu", 50], 
-		["TIOW_IG_HeavyBolter_1491_Blu", 50], 
-		["TIOW_IG_Lascannon_1491_Blu", 50], 
-		["TIOW_IG_MissileLauncher_AT_1491_Blu", 50], 
-		["TIOW_IG_MissileLauncher_AA_1491_Blu", 50]
+		["ML700_Static_Autocannon_Tripod", 50], 
+		["ML700_Static_HeavyBolter_Tripod", 50], 
+		["ML700_Static_Lascannon_Tripod", 50], 
+		["ML700_Static_MultiLaser_Tripod", 50], 
+		["ML700_Static_LockeLauncher_Tripod", 50]
 	]
 ] call acex_fortify_fnc_registerObjects;
 
 // Chat Version 
+
+
+
+
+
+
