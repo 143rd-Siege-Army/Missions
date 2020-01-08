@@ -26,8 +26,8 @@ call compile preprocessFileLineNumbers "scripts\radio\jammer.sqf";
 
 //Mission Name Space Variables
 missionNameSpace setVariable ["startCap", 0, true];
-missionNameSpace setVariable ["alsafz1", 0, true];
-missionNameSpace setVariable ["alsafz2", 0, true];
-missionNameSpace setVariable ["alsafz3", 0, true];
-missionNameSpace setVariable ["alsafz4", 0, true];
-missionNameSpace setVariable ["alsafz5", 0, true];
+missionNameSpace setVariable ["alsaf1", 0, true];
+missionNameSpace setVariable ["alsaf2", 0, true];
+missionNameSpace setVariable ["alsaf3", 0, true];
+missionNameSpace setVariable ["alsaf4", 0, true];
+missionNameSpace setVariable ["alsaf5", 0, true];
