@@ -31,3 +31,6 @@ missionNameSpace setVariable ["alsaf2", 0, true];
 missionNameSpace setVariable ["alsaf3", 0, true];
 missionNameSpace setVariable ["alsaf4", 0, true];
 missionNameSpace setVariable ["alsaf5", 0, true];
+
+//Cutscene
+nul = [60] execVM "scripts\cutscene\intro.sqf";

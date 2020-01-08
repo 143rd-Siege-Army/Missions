@@ -47,7 +47,13 @@ class CfgSounds
 	class poacher
 	{
 		name = "Poacher";
-		sound[] = {"media\sounds\poacher.ogg", 10, 1, 50};
+		sound[] = {\media\sounds\poacher.ogg, 10, 1, 50};
+		titles[] = {};
+	};
+	class speech
+	{
+		name = "Speech"; 
+		sound[] = {\media\sounds\speech.ogg, .5, 1.0};
 		titles[] = {};
 	};
 };
@@ -61,3 +67,15 @@ class Header {
 	maxPlayers = 110;
 }
 
+//Tac-Ops inclusion for Animated Map Briefings - Working in SP, needs MP Testing
+/*
+#include "\A3\Missions_F_Tacops\cfgFunctions.inc"
+class CfgFunctions
+{
+	class A3_Missions_F_Tacops
+		{
+			tag = "BIS";
+			project = "arma3";
+		};
+};
+*/
