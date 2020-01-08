@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7595.0513,132.05777,6114.1533};
-		dir[]={-0.79722404,-0.60369873,0.010884152};
-		up[]={-0.60369527,0.79716551,0.0082417289};
-		aside[]={0.013651615,-3.1764102e-007,0.99997038};
+		pos[]={17452.848,14.162615,4568.4893};
+		dir[]={0.36074755,-0.54234987,0.75876993};
+		up[]={0.23287567,0.84014982,0.48981473};
+		aside[]={0.90313363,-2.0081643e-009,-0.42938367};
 	};
 };
 binarizationWanted=0;
@@ -122855,7 +122855,7 @@ class Mission
 			};
 			id=2482;
 			type="Land_DataTerminal_01_F";
-			atlOffset=9.3460083e-005;
+			atlOffset=0.00010108948;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -127917,7 +127917,7 @@ class Mission
 			};
 			id=2574;
 			type="acex_intelitems_document";
-			atlOffset=9.3460083e-005;
+			atlOffset=0.00010108948;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -132818,7 +132818,7 @@ class Mission
 			};
 			id=2730;
 			type="acex_intelitems_document";
-			atlOffset=0.43009377;
+			atlOffset=0.43010139;
 			class CustomAttributes
 			{
 				class Attribute0
