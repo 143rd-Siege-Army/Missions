@@ -1,1 +1,0 @@
-[[screen1, screen2, screen3], [controller1], ["media\images\alsafyrah.paa", "media\images\sanobar.paa", "media\images\promethiumdepot.paa"], ["Al Safyrah", "Sanobar", "Promethium Depot"], 0, "Slideshow1"] call ace_slideshow_fnc_createSlideshow;

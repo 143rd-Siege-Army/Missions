@@ -1,1 +1,0 @@
-[[briefing1, briefing2, briefing3, screen1, screen2, screen3], [controller2], ["media\images\1.paa", "media\images\2.paa"], ["Briefing Image 1", "Briefing Image 2"], 0, "Slideshow1"] call ace_slideshow_fnc_createSlideshow;
