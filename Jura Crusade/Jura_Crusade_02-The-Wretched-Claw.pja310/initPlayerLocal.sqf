@@ -1,1 +1,0 @@
-radioJammer = [[jammer1], 2500, 50, false] execVM "scripts\radio\TFARjamRadios.sqf";

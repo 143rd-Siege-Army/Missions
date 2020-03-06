@@ -1,0 +1,3 @@
+[[screen1, screen2, screen3], [controller1], ["media\images\AlHaffa.paa", "media\images\CommandHQ.paa", "media\images\MaArat.paa"], ["Al Haffa Supply Depot", "PDF Local Command Romeo", "Ma'Arat"], 0, "Slideshow1"] call ace_slideshow_fnc_createSlideshow;
+
+[[briefing1, briefing2, briefing3], [controller2], ["media\images\briefing1.paa", "media\images\briefing2.paa", "media\images\briefing3.paa"], ["Briefing Image 1", "Briefing Image 2", "Briefing Image 3"], 0, "Slideshow2"] call ace_slideshow_fnc_createSlideshow;
